@@ -16,6 +16,9 @@
 		F2194A9A2AD85CA6005AC2CC /* ProjectCharacterAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2194A992AD85CA6005AC2CC /* ProjectCharacterAPITests.swift */; };
 		F2194AA42AD85CA6005AC2CC /* ProjectCharacterAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2194AA32AD85CA6005AC2CC /* ProjectCharacterAPIUITests.swift */; };
 		F2194AA62AD85CA6005AC2CC /* ProjectCharacterAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2194AA52AD85CA6005AC2CC /* ProjectCharacterAPIUITestsLaunchTests.swift */; };
+		F2194AB32AD85F18005AC2CC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2194AB22AD85F18005AC2CC /* NetworkService.swift */; };
+		F2194AB52AD85F5B005AC2CC /* CharacterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2194AB42AD85F5B005AC2CC /* CharacterInfo.swift */; };
+		F2194AB72AD85F72005AC2CC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2194AB62AD85F72005AC2CC /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F2194A9F2AD85CA6005AC2CC /* ProjectCharacterAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectCharacterAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2194AA32AD85CA6005AC2CC /* ProjectCharacterAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCharacterAPIUITests.swift; sourceTree = "<group>"; };
 		F2194AA52AD85CA6005AC2CC /* ProjectCharacterAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCharacterAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2194AB22AD85F18005AC2CC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F2194AB42AD85F5B005AC2CC /* CharacterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfo.swift; sourceTree = "<group>"; };
+		F2194AB62AD85F72005AC2CC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				F2194A842AD85CA4005AC2CC /* SceneDelegate.swift */,
 				F2194A862AD85CA4005AC2CC /* ViewController.swift */,
 				F2194A882AD85CA4005AC2CC /* Main.storyboard */,
+				F2194AB22AD85F18005AC2CC /* NetworkService.swift */,
+				F2194AB42AD85F5B005AC2CC /* CharacterInfo.swift */,
+				F2194AB62AD85F72005AC2CC /* CollectionViewCell.swift */,
 				F2194A8B2AD85CA6005AC2CC /* Assets.xcassets */,
 				F2194A8D2AD85CA6005AC2CC /* LaunchScreen.storyboard */,
 				F2194A902AD85CA6005AC2CC /* Info.plist */,
@@ -260,6 +269,9 @@
 			files = (
 				F2194A872AD85CA4005AC2CC /* ViewController.swift in Sources */,
 				F2194A832AD85CA4005AC2CC /* AppDelegate.swift in Sources */,
+				F2194AB72AD85F72005AC2CC /* CollectionViewCell.swift in Sources */,
+				F2194AB52AD85F5B005AC2CC /* CharacterInfo.swift in Sources */,
+				F2194AB32AD85F18005AC2CC /* NetworkService.swift in Sources */,
 				F2194A852AD85CA4005AC2CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
